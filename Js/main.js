@@ -40,7 +40,7 @@ let third_statues = document.querySelector('.third-status');
 // get api response
 
 async function getTodayWeather(search){
-    let response = await fetch (`http://api.weatherapi.com/v1/forecast.json?key=c5dd02d749114d2287a144040240601&q=${search}&days=10&aqi=no&alerts=no`)
+    let response = await fetch (`https://api.weatherapi.com/v1/forecast.json?key=c5dd02d749114d2287a144040240601&q=${search}&days=10&aqi=no&alerts=no`)
     let result = await response.json(); 
     console.log(result);
     console.log(result.forecast.forecastday[1].day.maxtemp_c);

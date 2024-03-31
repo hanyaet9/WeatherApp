@@ -1,0 +1,48 @@
+body {background-color: #1E202B; }
+
+
+                                                       /* navbar */
+                                                       
+.navbar {background-color: #1E202B; padding: 40px 0px;}
+.nav-item .nav-link { padding: 5px 10px; margin-right: 35px;}
+.logo_title h5 {font-size: 16px;}
+.logo_title h6 {font-size: 12px;}
+.nav-item .nav-link:hover { border: 3px solid #009AD8; border-radius: 50px; }
+
+
+
+                                                       /* header */
+
+.section-1 { background-image: url(../img/banner.png); background-size: cover; height: 350px; position: relative;} 
+.form-control {background-color: #1E202B; padding: 15px; border-radius: 35px; }
+.form-control::placeholder {color: gray; opacity: 0.5;}
+.form-control:focus{outline: none; background-color:#1E202B; color: white;}
+.search_input {position: relative;}
+.search_input button {background-color: #009ad8;  position: absolute; top: 5px; bottom: 5px; right: 15px;}
+
+                                           
+
+                                                     /* Content */
+.main-content {position: relative; bottom: 180px;}
+.Content-1 {background-color: #323544; border-bottom-left-radius:12px ;}
+.Content-2 h5 {font-size: 20px;}
+.Content-3 h5 {font-size: 20px;}
+.Content-2 {background-color: #262936;}
+.Content-3 {background-color: #323544; border-bottom-right-radius:12px ;}
+.tempretute {font-size: 90px;}
+.info-inner {display: flex;}
+.info-inner img {width: 20px; height: 20px; margin-right: 5px; margin-top: 2px;}
+.form-control p {color: white;}
+.title-1 {background-color: #2D303D; border-top-left-radius: 12px;}
+.title-2 {background-color: #222530;}
+.title-3 {background-color: #2D303D; border-top-right-radius: 12px;}
+.info-inner {margin-right: 10px;}
+.state {color: #009ad8;}
+
+
+
+                                                   /* footer */
+
+footer {background-color: #262936;} 
+.icon {height: 40px; width: 40px; display: flex; justify-content: center; align-items: center; border-radius: 50%; font-size: 18px; background-color: #1E202B; color: #009AD8; transition: 0.5s all; margin-left: 10px;}     
+.icon:hover {color: white; background-color: #009AD8;}                                             
